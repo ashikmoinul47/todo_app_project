@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app_project/ui/widgets/todo_item.dart';
 
 class TodoListScreen extends StatefulWidget {
   const TodoListScreen({super.key});
@@ -17,6 +16,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
       body: ListView.builder(
         itemCount: 5,
         itemBuilder: (context, index) {
+          return null;
 
         },
       ),
